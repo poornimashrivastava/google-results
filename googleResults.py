@@ -33,4 +33,4 @@ def googleResults(query) :
                     print("------------------------------------------------------")
             
 
-googleResults(str(input("Query : ")))
+googleResults(str(input("Enter a query : ")))

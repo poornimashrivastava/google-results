@@ -1,3 +1,4 @@
+# gets title of the page, url, and the description as seen in the google search page
 from bs4 import BeautifulSoup
 import requests
 
@@ -11,7 +12,7 @@ def googleResults(query) :
 
         getURL = requests.get(url, headers=headers)
         if getURL.status_code == 200 :
-            print(getURL.status_code)
+#             print(getURL.status_code)
             soup = BeautifulSoup(getURL.content, "html.parser")
             # print(soup.prettify())
 

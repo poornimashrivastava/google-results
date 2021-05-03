@@ -31,21 +31,5 @@ def googleResults(query) :
                     print("Description :", desc[0].getText())
                     print("------------------------------------------------------")
             
-            # print(len(links)) --------->maybe>1
-            # if len(links) != 0 :
-            #     atag = links[0]
-            #     # print(atag)
-            #     hrefval = atag['href']
-            #     if hrefval is not None and atag.text is not None:
-            #         print(hrefval)
-
-            # if siteLinks :
-            #     if siteLinks['href'] :
-            #         if len(siteLinks['href']) > 1 :
-            #             print(siteLinks['href'])
-            
-
-
-        
 
 googleResults(str(input("Query : ")))
